@@ -1,0 +1,191 @@
+html {
+	background-image: url("../img/back.jpg");
+	font-family: 'Forum', cursive;
+}
+
+body {
+    margin: 55px 0;
+}
+
+/* Шапка */
+
+.content {
+	width: 100%;
+}
+
+/* Адаптив */
+
+@media (max-width:1200px) {
+    .content {
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px) {
+    .content {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+    .content {
+        max-width: none;
+    }
+}
+
+/* Конец адаптива */
+
+header {
+	background: rgba(0, 0, 0, 0.7);
+	display: inline;
+	display: flex;
+
+}
+div.bg {
+	width: 80%;
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+div.head {
+	display: inline;
+	display: flex;
+	margin: 10px;
+}
+
+div.head img {
+	height: 80px;
+	width: 80px;
+}
+
+div.menu {
+	background: #FFE4E1;
+	border-radius: 50px;
+	margin: 25px;
+}
+
+ul.nav {
+	list-style-type: none;
+	padding: 0;
+	display: inline;
+	display: flex;
+
+}
+
+ul.nav li {
+	display: inline;
+}
+
+ul.nav a {
+	display: flex;
+	display: inline;
+	text-decoration: none;
+	margin: 60px;
+}
+
+.main {
+	color: #000;
+}
+
+.about {
+	color: #808080;
+}
+.about:hover {
+	color: #000;
+}
+
+.gallery {
+	color: #808080;
+}
+.gallery:hover {
+	color: #000;
+}
+
+/* Конец шапки */
+/* Основа */
+
+main {
+
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+div.naruto {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.lines {
+	margin-top: 100px; 
+}
+
+.line {
+	margin-top: 100px;
+	padding: 1px;
+	margin: 2px;
+	background: #808080;
+}
+
+.line1 {
+	margin: 2px;
+	padding: 2px;
+	background: #808080;
+}
+
+.line2 {
+	margin: 2px;
+	padding: 2px;
+	background: #808080;
+}
+
+.line3 {
+	margin: 2px;
+	padding: 1px;
+	background-color: rgb(128, 128, 128);
+}
+
+ h1 {
+
+ 	font-size: 5em;
+ 	padding: 10px;
+ 	color: rgb(80, 80, 80);
+	text-align: center;
+ }
+
+ div.image {
+ 	display: flex;
+ 	justify-content: center;
+ 	margin-top: 50px;
+ 	
+ }
+
+
+ div.image img {
+ 	width: 30%;
+ 	height: 15%;
+ 	margin: 5px;
+ 	box-shadow: 0 0 5px 0.5px;
+ }
+
+ /* Конец основы */
+ /* Контакты */
+
+footer {
+	margin-top: 50px;
+	width: 100%;
+}
+
+ div.footer {
+ 	padding: 10px;
+ 	background: rgba(0, 0, 0, 0.7);
+ }
+
+ .contacts {
+ 	width: 80%;
+ 	margin: 0 auto;
+ 	color: #fff;
+ 	
+ }

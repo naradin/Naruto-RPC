@@ -1,0 +1,161 @@
+html {
+	background-image: url("../img/back.jpg");
+	font-family: 'Forum', cursive;
+}
+
+body {
+    margin: 55px 0;
+}
+
+/* Шапка */
+
+.content {
+	width: 100%;
+}
+
+/* Адаптив */
+
+@media (max-width:1200px) {
+    .content {
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px) {
+    .content {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+    .content {
+        max-width: none;
+    }
+}
+
+/* Конец адаптива */
+
+header {
+	background: rgba(0, 0, 0, 0.7);
+	display: inline;
+	display: flex;
+
+}
+div.bg {
+	width: 80%;
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+div.head {
+	display: inline;
+	display: flex;
+	margin: 10px;
+}
+
+div.head img {
+	height: 80px;
+	width: 80px;
+}
+
+div.menu {
+	background: #FFE4E1;
+	border-radius: 50px;
+	margin: 25px;
+}
+
+ul.nav {
+	list-style-type: none;
+	padding: 0;
+	display: inline;
+	display: flex;
+
+}
+
+ul.nav li {
+	display: inline;
+}
+
+ul.nav a {
+	display: flex;
+	display: inline;
+	text-decoration: none;
+	margin: 60px;
+}
+
+.main {
+	color: #808080;
+}
+.main:hover {
+	color: #000;
+}
+
+.about {
+	color: #000;
+}
+
+.gallery {
+	color: #808080;
+}
+.gallery:hover {
+	color: #000;
+}
+
+/* Конец шапки */
+/* Основа */
+
+div.container {
+	width: 80%;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+div.cont {
+	display: flex;
+}
+
+ h1 {
+ 	margin: 50px 0 10px 0;
+ 	font-size: 6em;
+ 	padding: 10px;
+ 	color: rgb(80, 80, 80);
+	text-align: center;
+ }
+ div p {
+ 	width: 40%;
+ 	margin: 0 auto;
+ 	padding-top: 20px; 
+ 	font-size: 25px;
+ 	text-align: center;
+ 	color: #808080;
+ }
+
+ main img {
+ 	width: 20%;
+ 	height: 40%;
+ 	margin: 18px;
+ 	box-shadow: 0 0 5px 0.5px;
+ }
+
+
+/* Конец основы */
+ /* Контакты */
+
+footer {
+	margin-top: 50px; 
+	width: 100%;
+}
+
+ div.footer {
+ 	padding: 10px;
+ 	background: rgba(0, 0, 0, 0.7);
+ }
+
+ .contacts {
+ 	width: 80%;
+ 	margin: 0 auto;
+ 	color: #fff;
+ 	
+ }

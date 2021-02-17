@@ -1,0 +1,204 @@
+html {
+	background-image: url("../img/back.jpg");
+	font-family: 'Forum', cursive;
+}
+
+body {
+    margin: 55px 0;
+}
+
+/* Шапка */
+
+.content {
+	width: 100%;
+}
+
+/* Адаптив */
+
+@media (max-width:1200px) {
+    .content {
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px) {
+    .content {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+    .content {
+        max-width: none;
+    }
+}
+
+/* Конец адаптива */
+
+header {
+	background: rgba(0, 0, 0, 0.7);
+	display: inline;
+	display: flex;
+
+}
+div.bg {
+	width: 80%;
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+div.head {
+	display: inline;
+	display: flex;
+	margin: 10px;
+}
+
+div.head img {
+	height: 80px;
+	width: 80px;
+}
+
+div.menu {
+	background: #FFE4E1;
+	border-radius: 50px;
+	margin: 25px;
+}
+
+ul.nav {
+	list-style-type: none;
+	padding: 0;
+	display: inline;
+	display: flex;
+
+}
+
+ul.nav li {
+	display: inline;
+}
+
+ul.nav a {
+	display: flex;
+	display: inline;
+	text-decoration: none;
+	margin: 60px;
+}
+
+.main {
+	color: #808080;
+}
+.main:hover {
+	color: #000;
+}
+
+.about {
+	color: #808080;
+}
+.about:hover {
+	color: #000;
+}
+
+.gallery {
+	color: #000;
+}
+
+
+/* Конец шапки */
+/* Основа */
+
+
+main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+div.container {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+ h1 {
+ 	margin: 50px 0 10px 0;
+ 	font-size: 3em;
+ 	padding-top: 30px;
+ 	color: rgb(80, 80, 80);
+	text-align: center;
+}
+
+
+.image1, .image2, .image3, .image4, .image5, .image6 {
+	display: flex;
+	justify-content: center;
+}
+
+.Galery1 {
+	width: 89%;
+	margin: 3%;
+	box-shadow: 0 0 5px 0.5px;
+}
+.Galery2 {
+	width: 39%;
+	height: 78.5%;
+	margin: 3%;
+	box-shadow: 0 0 5px 0.5px;
+}
+
+.Galery3 {
+	width: 90%;
+	margin: 3%;
+	box-shadow: 0 0 5px 0.5px;
+}
+
+.Galery4 {
+	width: 40%;
+	height: 80%;
+	margin: 3%;
+	box-shadow: 0 0 5px 0.5px;
+}
+
+.Galery5 {
+	width: 90%;
+	margin: 3%;
+	box-shadow: 0 0 5px 0.5px;
+}
+
+.Galery6 {
+	width: 38%;
+	height: 76%;
+	margin: 3%;
+	box-shadow: 0 0 5px 0.5px;
+}
+
+.Galery7 {
+	width: 44.3%;
+	height: 88.6%;
+	margin: 3%;
+	box-shadow: 0 0 5px 0.5px;
+}
+
+.Galery8 {
+	width: 90%;
+	margin: 3%;
+	box-shadow: 0 0 5px 0.5px;
+}
+
+
+
+/* Конец основы */
+/* Контакты */
+footer {
+	margin-top: 50px; 
+	width: 100%;
+}
+
+div.footer {
+ 	padding: 10px;
+ 	background: rgba(0, 0, 0, 0.7);
+ }
+
+.contacts {
+ 	width: 80%;
+ 	margin: 0 auto;
+ 	color: #fff;
+ 	
+}
